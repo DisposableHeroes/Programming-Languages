@@ -19,6 +19,8 @@ class Error:
     
     def ret_string(self):
         result  = f'{self.error_type}: {self.info}\n'
+        
+        # Displays the file name and line number 
         result += f'File {self.token_start.fn}, line {self.token_start.line + 1}'
     
         return result
@@ -119,6 +121,7 @@ class Token:
 
 class Tokenizer:
     def __init__(self, fn, text):
+       
         self.fn = fn
         self.text = text
         self.pos = Position(-1, 0, -1, fn, text)
