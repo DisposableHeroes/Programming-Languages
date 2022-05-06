@@ -1,0 +1,11 @@
+expr   :term ((PLUS|MINUS) term)*
+
+term   :factor ((MUL|DIV) factor)*
+
+factor :INT|FLOAT
+
+Pretty basic stuff but from what I researched, this would be enough for basic  arithmetic operations.
+
+If I had a string implementation included, perhaps it would look something like this:
+
+atom   : INT|FLOAT|STRING|
