@@ -23,8 +23,8 @@ Summary: After doing some research, I came to the conclusion that the followings
                  wrote a different visit method for each type. The interpreter then determines what method to call based on the type of node.
 
 
-I don't think there's any code in particular which I would single out as being especially unique.
 Every part of the project was pretty interesting to work on and had its own unique challenges. I definitely learnt a lot about writing languages.
+If I had to single a particular part out, it'd probably be the Parser section since I had to essentially translate the grammar into code, which was pretty cool.
 
 Resources which helped me:
  https://www.freecodecamp.org/news/the-programming-language-pipeline-91d3f449c919/
