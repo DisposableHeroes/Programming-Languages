@@ -32,4 +32,4 @@ Resources which helped me:
  https://edu.anarcho-copy.org/Programming%20Languages/Go/writing%20an%20INTERPRETER%20in%20go.pdf
 
 
-It's tough to explain everything in writing, so I also created a short video demo of my code.
+I also created a short video demo of my code.
