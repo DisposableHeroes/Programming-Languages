@@ -124,6 +124,7 @@ class Tokenizer:
        
         self.fn = fn
         self.text = text
+        # Index, Line, Column
         self.pos = Position(-1, 0, -1, fn, text)
         self.current_char = None
         self.advance()
